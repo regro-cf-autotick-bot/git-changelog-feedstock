@@ -1,5 +1,5 @@
 {% set name = "git-changelog" %}
-{% set version = "2.4.0" %}
+{% set version = "2.5.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/git_changelog-{{ version }}.tar.gz
-  sha256: c772191fa96e584b3ff29b1a67fad6d1b4ee2a24647947a28fb1a8b229682421
+  sha256: b71a404a524dc0b14a34f92d306ae011a05c5fcf7c78ee5b484af50ac44ced65
 
 build:
   noarch: python
