@@ -1,13 +1,13 @@
 {% set name = "git-changelog" %}
-{% set version = "2.4.0" %}
+{% set version = "2.5.3" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/git_changelog-{{ version }}.tar.gz
-  sha256: c772191fa96e584b3ff29b1a67fad6d1b4ee2a24647947a28fb1a8b229682421
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/git_changelog-{{ version }}.tar.gz
+  sha256: 2d211a58213eaa97c73be895821c9d4c9242748eb56753f4759c0d24fe493b77
 
 build:
   noarch: python
